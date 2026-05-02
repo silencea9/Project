@@ -1,109 +1,0 @@
-Dependencies for Project 'atk_f103', Target 'TEMPERATURE': (DO NOT MODIFY !)
-CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\arm\startup_stm32f103xe.s)(0x675F8B78)(--cpu Cortex-M3 -g --apcs=interwork -ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32F10X_HD SETA 1"--list ..\..\output\startup_stm32f103xe.lst --xref -o ..\..\output\startup_stm32f103xe.o --depend ..\..\output\startup_stm32f103xe.d)
-F (..\..\User\main.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B78)
-I (..\..\Middlewares\./USMART/usmart.h)(0x675F8B78)
-I (..\..\Middlewares\./USMART/usmart_port.h)(0x675F8B78)
-I (..\..\Drivers\./BSP/LED/led.h)(0x675F8B78)
-I (..\..\Drivers\./BSP/LCD/lcd.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
-I (..\..\Drivers\./BSP/ADC/adc.h)(0x675F8B78)
-F (..\..\Drivers\SYSTEM\delay\delay.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\delay.o --omf_browse ..\..\output\delay.crf --depend ..\..\output\delay.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B78)
-F (..\..\Drivers\SYSTEM\sys\sys.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\sys.o --omf_browse ..\..\output\sys.crf --depend ..\..\output\sys.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-F (..\..\Drivers\SYSTEM\usart\usart.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\usart.o --omf_browse ..\..\output\usart.crf --depend ..\..\output\usart.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
-F (..\..\Drivers\BSP\LED\led.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\led.o --omf_browse ..\..\output\led.crf --depend ..\..\output\led.d)
-I (..\..\Drivers\./BSP/LED/led.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-F (..\..\Drivers\BSP\LCD\lcd.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\lcd.o --omf_browse ..\..\output\lcd.crf --depend ..\..\output\lcd.d)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
-I (..\..\Drivers\./BSP/LCD/lcd.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\./BSP/LCD/lcdfont.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
-I (..\..\Drivers\./BSP/LCD/lcd_ex.c)(0x675D0608)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B78)
-F (..\..\Drivers\BSP\ADC\adc.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\adc.o --omf_browse ..\..\output\adc.crf --depend ..\..\output\adc.d)
-I (..\..\Drivers\./BSP/ADC/adc.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\./BSP/DMA/dma.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B78)
-F (..\..\Drivers\BSP\DMA\dma.c)(0x675F8B78)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\dma.o --omf_browse ..\..\output\dma.crf --depend ..\..\output\dma.d)
-I (..\..\Drivers\./BSP/DMA/dma.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B78)
-I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B78)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B78)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B78)
-F (..\..\readme.txt)(0x675F8B78)()
