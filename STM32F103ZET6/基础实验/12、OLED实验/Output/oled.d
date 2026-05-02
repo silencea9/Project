@@ -1,0 +1,14 @@
+..\..\output\oled.o: ..\..\Drivers\BSP\OLED\oled.c
+..\..\output\oled.o: E:\keil\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\oled.o: ..\..\Drivers\./BSP/OLED/oled.h
+..\..\output\oled.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\oled.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
+..\..\output\oled.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h
+..\..\output\oled.o: ..\..\Drivers\CMSIS\Include\core_cm3.h
+..\..\output\oled.o: E:\keil\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\oled.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\oled.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\oled.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\oled.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
+..\..\output\oled.o: ..\..\Drivers\./BSP/OLED/oledfont.h
+..\..\output\oled.o: ..\..\Drivers\./SYSTEM/delay/delay.h
