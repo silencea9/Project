@@ -1,0 +1,15 @@
+..\..\output\nes_ppu.o: ..\..\Middlewares\NES\nes_ppu.c
+..\..\output\nes_ppu.o: ..\..\Middlewares\NES\nes_ppu.h
+..\..\output\nes_ppu.o: ..\..\Middlewares\NES\nes_main.h
+..\..\output\nes_ppu.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\nes_ppu.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
+..\..\output\nes_ppu.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h
+..\..\output\nes_ppu.o: ..\..\Drivers\CMSIS\Include\core_cm3.h
+..\..\output\nes_ppu.o: E:\keil\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\nes_ppu.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\nes_ppu.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\nes_ppu.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\nes_ppu.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
+..\..\output\nes_ppu.o: E:\keil\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\nes_ppu.o: ..\..\Drivers\./BSP/LCD/lcd.h
+..\..\output\nes_ppu.o: E:\keil\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

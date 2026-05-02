@@ -1,0 +1,78 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword.control.c",
+          "storage.type.c",
+          "storage.modifier.c"
+        ],
+        "settings": {
+          "foreground": "#569CD6"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.c"
+        ],
+        "settings": {
+          "foreground": "#DCDCAA"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.c"
+        ],
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.double.c",
+          "string.quoted.single.c"
+        ],
+        "settings": {
+          "foreground": "#CE9178"
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric.c"
+        ],
+        "settings": {
+          "foreground": "#B5CEA8"
+        }
+      },
+      {
+        "scope": [
+          "comment.line.double-slash.c",
+          "comment.block.c"
+        ],
+        "settings": {
+          "foreground": "#6A9955",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "editorGroup.border": "#000000",
+    "editorGroupHeader.tabsBorder": "#000000",
+    "tab.activeBorder": "#000000",
+    "sideBar.border": "#000000",
+    "activityBar.border": "#000000",
+    "activityBar.background": "#1E1E1E",
+    "activityBar.activeBackground": "#1E1E1E",
+    "activityBar.inactiveForeground": "#CCCCCC",
+    "titleBar.activeBackground": "#1E1E1E",
+    "titleBar.inactiveBackground": "#1E1E1E",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveForeground": "#CCCCCC",
+    "statusBar.border": "#000000",
+    "statusBar.background": "#1E1E1E",
+    "statusBar.noFolderBackground": "#1E1E1E",
+    "statusBar.debuggingBackground": "#1E1E1E"
+  }
+}

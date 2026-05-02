@@ -1,0 +1,13 @@
+..\..\output\nes_apu.o: ..\..\Middlewares\NES\nes_apu.c
+..\..\output\nes_apu.o: ..\..\Middlewares\NES\nes_apu.h
+..\..\output\nes_apu.o: ..\..\Middlewares\NES\nes_main.h
+..\..\output\nes_apu.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\nes_apu.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
+..\..\output\nes_apu.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h
+..\..\output\nes_apu.o: ..\..\Drivers\CMSIS\Include\core_cm3.h
+..\..\output\nes_apu.o: E:\keil\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\nes_apu.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\nes_apu.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\nes_apu.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\nes_apu.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
+..\..\output\nes_apu.o: ..\..\Middlewares\./MALLOC/malloc.h

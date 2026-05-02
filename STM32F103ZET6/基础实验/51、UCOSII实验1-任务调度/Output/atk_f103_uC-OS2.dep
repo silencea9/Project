@@ -1,0 +1,377 @@
+Dependencies for Project 'atk_f103', Target 'uC-OS2': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\arm\startup_stm32f103xe.s)(0x675F8B7A)(--cpu Cortex-M3 -g --apcs=interwork -ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32F10X_HD SETA 1"--list ..\..\output\startup_stm32f103xe.lst --xref -o ..\..\output\startup_stm32f103xe.o --depend ..\..\output\startup_stm32f103xe.d)
+F (..\..\User\main.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\main.o --depend ..\..\output\main.d)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B7A)
+I (..\..\Drivers\./BSP/LED/led.h)(0x675F8B7A)
+I (..\..\User\uc-os2_demo.h)(0x675F8B7A)
+F (..\..\User\uc-os2_demo.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\uc-os2_demo.o --depend ..\..\output\uc-os2_demo.d)
+I (..\..\User\uc-os2_demo.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./BSP/LED/led.h)(0x675F8B7A)
+I (..\..\Drivers\./BSP/LCD/lcd.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\..\Middlewares\./MALLOC/malloc.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Drivers\BSP\LED\led.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\led.o --depend ..\..\output\led.d)
+I (..\..\Drivers\./BSP/LED/led.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+F (..\..\Drivers\BSP\LCD\lcd.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\lcd.o --depend ..\..\output\lcd.d)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\..\Drivers\./BSP/LCD/lcd.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./BSP/LCD/lcdfont.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Drivers\./BSP/LCD/lcd_ex.c)(0x675D0608)
+I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B7A)
+F (..\..\Drivers\BSP\KEY\key.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\key.o --depend ..\..\output\key.d)
+I (..\..\Drivers\./BSP/KEY/key.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B7A)
+F (..\..\Drivers\BSP\SRAM\sram.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\sram.o --depend ..\..\output\sram.d)
+I (..\..\Drivers\./BSP/SRAM/sram.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\..\Drivers\SYSTEM\delay\delay.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\delay.o --depend ..\..\output\delay.d)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Drivers\SYSTEM\sys\sys.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\sys.o --depend ..\..\output\sys.d)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+F (..\..\Drivers\SYSTEM\usart\usart.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\usart.o --depend ..\..\output\usart.d)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\MALLOC\malloc.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\malloc.o --depend ..\..\output\malloc.d)
+I (..\..\Middlewares\./MALLOC/malloc.h)(0x675F8B7A)
+I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x675F8B7A)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x675F8B7A)
+I (..\..\Drivers\./BSP/SRAM/sram.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-CPU\BSP\Template\bsp_cpu.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\bsp_cpu.o --depend ..\..\output\bsp_cpu.d)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_core.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_mem.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template\lib_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_str.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu_a.asm)(0x675F8B7A)(--cpu Cortex-M3 -g --apcs=interwork -ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32F10X_HD SETA 1"--list ..\..\output\cpu_a.lst --xref -o ..\..\output\cpu_a.o --depend ..\..\output\cpu_a.d)
+F (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\cpu_c.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\cpu_c.o --depend ..\..\output\cpu_c.d)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_core.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_mem.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template\lib_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_str.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-CPU\cpu_core.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\cpu_core.o --depend ..\..\output\cpu_core.d)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_core.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_mem.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template\lib_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_str.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\lib_ascii.o --depend ..\..\output\lib_ascii.d)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_def.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-LIB\lib_math.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\lib_math.o --depend ..\..\output\lib_math.d)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_math.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_core.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_mem.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template\lib_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_str.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-LIB\lib_mem.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\lib_mem.o --depend ..\..\output\lib_mem.d)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_mem.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_core.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_str.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template\lib_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_math.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-LIB\lib_str.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\lib_str.o --depend ..\..\output\lib_str.d)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_str.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\lib_ascii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template\lib_cfg.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_hooks.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\app_hooks.o --depend ..\..\output\app_hooks.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu_a.asm)(0x675F8B7A)(--cpu Cortex-M3 -g --apcs=interwork -ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32F10X_HD SETA 1"--list ..\..\output\os_cpu_a.lst --xref -o ..\..\output\os_cpu_a.o --depend ..\..\output\os_cpu_a.d)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_dbg.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_dbg.o --depend ..\..\output\os_dbg.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\os_cpu_c.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_cpu_c.o --depend ..\..\output\os_cpu_c.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_core.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_core.o --depend ..\..\output\os_core.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_flag.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_flag.o --depend ..\..\output\os_flag.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_mbox.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_mbox.o --depend ..\..\output\os_mbox.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_mem.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_mem.o --depend ..\..\output\os_mem.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_mutex.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_mutex.o --depend ..\..\output\os_mutex.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_q.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_q.o --depend ..\..\output\os_q.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_sem.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_sem.o --depend ..\..\output\os_sem.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_task.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_task.o --depend ..\..\output\os_task.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_time.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_time.o --depend ..\..\output\os_time.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_tmr.c)(0x675F8B7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-CPU -I ..\..\Middlewares\uC-OS2\uC-LIB\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-LIB -I ..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template -I ..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM -I ..\..\Middlewares\uC-OS2\uC-OS2\Source-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\os_tmr.o --depend ..\..\output\os_tmr.d)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\ucos_ii.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\app_cfg.h)(0x675F8B7A)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (E:\keil\keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Middlewares\uC-OS2\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\cpu_def.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-CPU\Cfg\Template\cpu_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Cfg\Template\os_cfg.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x675F8B7A)
+I (..\..\Middlewares\uC-OS2\uC-OS2\Source\os_trace.h)(0x675F8B7A)
+F (..\..\readme.txt)(0x675F8B7A)()
